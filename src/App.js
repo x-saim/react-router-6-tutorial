@@ -8,8 +8,9 @@ import SharedLayout from './pages/SharedLayout';
 import SingleProduct from './pages/SingleProduct';
 
 function App() {
-  return (
+
   
+  return (
   <BrowserRouter>
     <Routes>
     <Route path='/' element={<SharedLayout />}>
