@@ -11,6 +11,28 @@ export const StyledNavbar = () => {
   >
     Home
   </NavLink>
-    </nav>
-      )
+
+  <NavLink
+    to='/about'
+    className={({ isActive }) => (isActive ? 'link active' : 'link')}
+  >
+    About
+  </NavLink>
+
+  <NavLink
+    to='/products'
+    className={({ isActive }) => (isActive ? 'link active' : 'link')}
+  >
+    Products
+  </NavLink>
+
+  <NavLink
+    to='/login'
+    className={({ isActive }) => (isActive ? 'link active' : 'link')}
+  >
+    Login
+  </NavLink>
+
+  </nav>
+  )
 }
